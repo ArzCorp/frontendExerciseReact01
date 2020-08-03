@@ -67,3 +67,29 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .articles {
+    display: block;
+  }
+
+  .article {
+    padding-bottom: var(--spacing);
+  }
+
+  .article__image {
+    width: 100%;
+  }
+
+  .articles__left {
+    border: transparent;
+  }
+
+  .articles__middle {
+    border: transparent;
+  }
+
+  .articles__right {
+    display: none;
+  }
+}

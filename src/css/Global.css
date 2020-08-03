@@ -88,7 +88,29 @@ p{
   padding: 0px 10px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
+  html {
+    padding: 0px;
+  }
+
+  #page {
+    padding: var(--spacing);
+  }
+
+  .flexbox {
+    flex-direction: column;
+  }
+
+  .grid-column2 {
+    display: block;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 420px) {
   html {
     padding: 0px;
   }
