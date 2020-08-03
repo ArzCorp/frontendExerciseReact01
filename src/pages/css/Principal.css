@@ -42,3 +42,28 @@
   border-top: 2px solid var(--colorDark);
 }
 
+@media screen and (max-width: 320px) {
+  .articles {
+    display: block;
+  }
+
+  .article {
+    padding-bottom: var(--spacing);
+  }
+
+  .article__image {
+    width: 100%;
+  }
+
+  .articles__left {
+    border: transparent;
+  }
+
+  .articles__middle {
+    border: transparent;
+  }
+
+  .articles__right {
+    display: none;
+  }
+}

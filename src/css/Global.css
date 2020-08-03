@@ -87,3 +87,25 @@ p{
   height: 100%;
   padding: 0px 10px;
 }
+
+@media screen and (max-width: 320px) {
+  html {
+    padding: 0px;
+  }
+
+  #page {
+    padding: var(--spacing);
+  }
+
+  .flexbox {
+    flex-direction: column;
+  }
+
+  .grid-column2 {
+    display: block;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
